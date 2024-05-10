@@ -7,7 +7,8 @@ Este projeto utiliza um Arduino para analisar a luminosidade, umidade e temperat
 ## Link do Tinkercad
 https://www.tinkercad.com/things/fKGiNdFgFVz-cp-2-edge-computing/editel?sharecode=LyKbskernQdqQkDC5pe_rcEi3F8IRImHuWMPRVCaP0w
 
-## Componentes necessários
+## 🔨 Montagem
+### Componentes necessários
 1. Arduino Uno
 2. Sensor LDR (Light Dependent Resistor)
 3. Buzzer
@@ -16,7 +17,6 @@ https://www.tinkercad.com/things/fKGiNdFgFVz-cp-2-edge-computing/editel?sharecod
 6. 1 resistor de 10kohm
 7. Display LCD 16x2
 
-## 🔨 Montagem
 
 ### Sensor LDR
 1. Conecte uma ponta do sensor LDR a corrente 5 volts.
@@ -84,7 +84,7 @@ O sistema é divido entre as três principais grandezas analisadas:
 - Enquanto a umidade estiver nessa faixa, nenhum led se manterá acesso
 - Display mostrará a mensagem "umidade baixa"
   
-#### umidade maior que 50
+#### umidade maior que 50 e menor que 70
 - Enquanto a umidade estiver nessa faixa, o led amarelo se manterá acesso
 - Display mostrará a mensagem "umidade OK"
 - Alerta sonoro
