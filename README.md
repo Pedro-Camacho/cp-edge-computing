@@ -3,6 +3,7 @@ Este projeto utiliza um Arduino para analisar a luminosidade, umidade e temperat
 
 
 ## Link para o video apresentação
+https://youtu.be/Rav6Fh_S70s?si=kCGdZI0JyIL8xG_h
 
 ## Link do Tinkercad
 https://www.tinkercad.com/things/fKGiNdFgFVz-cp-2-edge-computing/editel?sharecode=LyKbskernQdqQkDC5pe_rcEi3F8IRImHuWMPRVCaP0w
