@@ -88,9 +88,6 @@ void loop()
     digitalWrite(pinAmarelo,LOW);
     digitalWrite(pinVermelho,HIGH);
     tone(buzzerPin,440);
-    delay(500);
-    noTone(buzzerPin);
-    delay(200);
     
     //display ambiente muito claro
     lcd.clear();
