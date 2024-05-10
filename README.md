@@ -116,7 +116,7 @@ O sistema é divido entre as três principais grandezas analisadas:
 - Agir imediatamente
 
 
-## INTEGRANTES
+## 🙎‍♂️🙎‍♀️ INTEGRANTES
 
 - Pedro Almeida Camacho rm: 556831
 - Camila Pedroza da Cunha rm: 558768
