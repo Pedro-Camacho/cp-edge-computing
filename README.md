@@ -1,7 +1,6 @@
 # Controle de qualidade de ambiente - Vinheria Agnello
 Este projeto utiliza um Arduino para analisar a luminosidade, umidade e temperatura do ambiente e fornecer feedback visual e sonoro com base nos níveis detectados no ambiente.
 
-![arduino](https://github.com/Pedro-Camacho/cp-edge-computing/assets/112903512/ec617ea0-9721-43fe-a7f4-c6d29c7d125c)
 
 ## Link para o video apresentação
 
@@ -48,10 +47,15 @@ https://www.tinkercad.com/things/fKGiNdFgFVz-cp-2-edge-computing/editel?sharecod
 1. Conecte uma das pernas das extremidades a corrente GND e outra a 5 volts (Atenção para não conecta-las invertidas)
 2. Conecte o seu pino central a porta analogica "A3" do arduino
 
+
+![arduino](https://github.com/Pedro-Camacho/cp-edge-computing/assets/112903512/ec617ea0-9721-43fe-a7f4-c6d29c7d125c)
+
 ## Instalação de dependecias
 Para a execução da aplicação será necessária a instalção da biblioteca Liquid Crystal
 
+
 ## Funcionamento
+
 O sistema é divido entre as três principais grandezas analisadas:
 
 > Os valores de luminosidade e umidade foram convertidos em uma escalas de 0 a 100 com base na amplitude dos seus respectivos sensores para facilitar a analise
