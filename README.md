@@ -16,7 +16,7 @@ https://www.tinkercad.com/things/fKGiNdFgFVz-cp-2-edge-computing/editel?sharecod
 6. 1 resistor de 10kohm
 7. Display LCD 16x2
 
-## Montagem
+## 🔨 Montagem
 
 ### Sensor LDR
 1. Conecte uma ponta do sensor LDR a corrente 5 volts.
@@ -48,13 +48,13 @@ https://www.tinkercad.com/things/fKGiNdFgFVz-cp-2-edge-computing/editel?sharecod
 2. Conecte o seu pino central a porta analogica "A3" do arduino
 
 
+
+## ⚙ Funcionamento
+
 ![arduino](https://github.com/Pedro-Camacho/cp-edge-computing/assets/112903512/ec617ea0-9721-43fe-a7f4-c6d29c7d125c)
 
 ## Instalação de dependecias
 Para a execução da aplicação será necessária a instalção da biblioteca Liquid Crystal
-
-
-## Funcionamento
 
 O sistema é divido entre as três principais grandezas analisadas:
 
