@@ -3,7 +3,7 @@ Este projeto utiliza um Arduino para analisar a luminosidade, umidade e temperat
 
 ![arduino](https://github.com/Pedro-Camacho/cp-edge-computing/assets/112903512/ec617ea0-9721-43fe-a7f4-c6d29c7d125c)
 
-## Link para video apresentação
+## Link para o video apresentação
 
 ## Link do Tinkercad
 https://www.tinkercad.com/things/fKGiNdFgFVz-cp-2-edge-computing/editel?sharecode=LyKbskernQdqQkDC5pe_rcEi3F8IRImHuWMPRVCaP0w
@@ -41,10 +41,75 @@ https://www.tinkercad.com/things/fKGiNdFgFVz-cp-2-edge-computing/editel?sharecod
 5. Por fim, conecte a porta "LED ANODO" a corrente 5 volts e a "LED CATÓTICO" ao GND
 
 ### Potenciomentro (simular umidade)
-1. Conecte uma das pernas das extremidades do potenciomentro a corrente GND e outra a 5 volts (Atenção para não conecta-las invertidas)
+1. Conecte uma das pernas das extremidades a corrente GND e outra a 5 volts (Atenção para não conecta-las invertidas)
 2. Conecte o seu pino central a porta analogica "A2" do arduino
 
 ### Sensor de temperatura
+1. Conecte uma das pernas das extremidades a corrente GND e outra a 5 volts (Atenção para não conecta-las invertidas)
+2. Conecte o seu pino central a porta analogica "A3" do arduino
+
+## Instalação de dependecias
+Para a execução da aplicação será necessária a instalção da biblioteca Liquid Crystal
+
+## Funcionamento
+O sistema é divido entre as três principais grandezas analisadas:
+
+> Os valores de luminosidade e umidade foram convertidos em uma escalas de 0 a 100 com base na amplitude dos seus respectivos sensores para facilitar a analise
+
+### Luminosidade
+
+#### Luminosidade menor que 30
+- Enquanto a luminosidade for menor do que 30 o led verde se manterá acesso
+- o ambiente está na luminosidade ideal
+  
+#### Luminosidade maior que 30 e menor que 50
+- Enquanto a luminosidade estiver nessa faixa o led amarelo se manterá acesso
+- O ambiente está a meia luz
+- Manter vigilancia
+
+#### Luminosidade maior 50
+- Enquanto a luminosidade estiver nessa faixa o led vermelho se manterá acesso
+- O ambiente está com muita luminosidade
+- Agir imediatamente
+- Alerta sonoro
+  
+
+  
+### Umidade
+#### umidade menor que 50
+- Enquanto a umidade estiver nessa faixa, nenhum led se manterá acesso
+- Display mostrará a mensagem "umidade baixa"
+  
+#### umidade maior que 50
+- Enquanto a umidade estiver nessa faixa, o led amarelo se manterá acesso
+- Display mostrará a mensagem "umidade OK"
+- Alerta sonoro
+- Manter vigilancia
+
+#### umidade maior que 70
+- Enquanto a umidade estiver nessa faixa, o led vermelho se manterá acesso
+- Display mostrará a mensagem "umidade ALTA"
+- Alerta sonoro
+- Agir imediatamente
+
+
+  
+### Temperatura 
+#### temperatura menor que 10
+- Enquanto a umidade estiver nessa faixa, nenhum led se manterá acesso
+- Display mostrará a mensagem "temperatura baixa"
+  
+#### temperatura maior que 10 e menor que 15
+- Enquanto a umidade estiver nessa faixa, o led amarelo se manterá acesso
+- Display mostrará a mensagem "temperatura OK"
+- Alerta sonoro
+- Manter vigilancia
+
+#### temperatura maior que 15
+- Enquanto a umidade estiver nessa faixa, o led vermelho se manterá acesso
+- Display mostrará a mensagem "temperatura ALTA"
+- Alerta sonoro
+- Agir imediatamente
 
 
 ## INTEGRANTES
