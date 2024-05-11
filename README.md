@@ -1,4 +1,4 @@
-# Controle de qualidade de ambiente - Vinheria Agnello
+# Controle de qualidade de ambiente - The Icers
 Este projeto utiliza um Arduino para analisar a luminosidade, umidade e temperatura do ambiente e fornecer feedback visual e sonoro com base nos níveis detectados no ambiente.
 
 
